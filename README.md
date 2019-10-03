@@ -20,7 +20,7 @@ mix run priv/build_france_working_days.exs
 ## Usage
 ```
 iex> WorkingDays.add_working_days(%Date{year: 2019, month: 1, day: 1}, 3)
-    %Date{year: 2019, month: 1, day: 4}
+%Date{year: 2019, month: 1, day: 4}
 
 iex> WorkingDays.add_working_days(%Date{year: 2018, month: 12, day: 30}, 2)
 %Date{year: 2019, month: 1, day: 2}
