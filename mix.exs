@@ -4,8 +4,8 @@ defmodule WorkingDays.MixProject do
   def project do
     [
       app: :working_days,
-      version: "0.1.0",
-      elixir: "~> 1.9",
+      version: "0.2.0",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -21,8 +21,8 @@ defmodule WorkingDays.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:jason, "~> 1.1"},
-      {:httpoison, "~> 1.6"}
+      {:jason, "~> 1.4"},
+      {:httpoison, "~> 2.2"}
     ]
   end
 end
